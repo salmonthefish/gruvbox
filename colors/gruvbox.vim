@@ -286,7 +286,7 @@ call s:HL('Constant',  'purple')
 " Character constant: 'c', '/n'
 call s:HL('Character', 'purple')
 " String constant: "this is a string"
-call s:HL('String',    'green')
+call s:HL('String',    'green', 'none', 'italic')
 " Boolean constant: TRUE, false
 call s:HL('Boolean',   'purple')
 " Number constant: 234, 0xff
